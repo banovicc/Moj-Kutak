@@ -1,0 +1,4 @@
+3.5.2025
+Napravio inicijalni dizajn te napravio projekt povezo ga s vercelom i github repositoryiem i sve spremno za programiranje
+Navecer sam dodao navigacijsku traku te napravio fajlove welcomescreen u kojem ce biti slika i kao dobrodoslica na stranicu
+te sam uplodao stranicu ugl sam se bavio frontendom

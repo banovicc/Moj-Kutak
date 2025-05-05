@@ -1,0 +1,13 @@
+.Title {
+  position: absolute;
+  background-color: rgba(224, 224, 224, 0.5);
+  padding: 2rem;
+  border-radius: 20px;
+  z-index: 10;
+  color: rgb(27, 27, 27);
+  font-size: 3rem;
+  top: 30%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+}
