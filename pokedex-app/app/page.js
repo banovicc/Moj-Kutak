@@ -1,13 +1,13 @@
 import WelcomeScreen from "./WelcomeScreen";
-import CurentlyPopular from "./CurentlyPopular";
-import Navigationbar from "./Navigationbar";
+import TopRated from "./TopRated";
+import NavigationBar from "./Navigationbar";
 
 export default function Home() {
   return (
     <main>
-      <Navigationbar />
+      <NavigationBar />
       <WelcomeScreen />
-      <CurentlyPopular />
+      <TopRated />
     </main>
   );
 }

@@ -1,7 +1,7 @@
-import "./CurentlyPopular.css";
-import PopularShows from "./PopularShows";
+import styles from "./TopRated.module.css";
+import PopularShows from "./RatedShows";
 
-export default async function WelcomeScreen() {
+export default async function TopRated() {
   const res = await fetch("https://api.tvmaze.com/shows");
   const data = await res.json();
 
@@ -10,7 +10,8 @@ export default async function WelcomeScreen() {
     .sort((a, b) => b.rating.average - a.rating.average);
 
   return (
-    <div className="MainPopular">
+    <div className={styles.MainPopular}>
+      <h1 className={styles.Title}>Najbolje ocjenjeni</h1>
       <PopularShows shows={sortedShows} />
     </div>
   );

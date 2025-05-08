@@ -1,6 +1,6 @@
 import Image from "next/image";
 import FriendWatching from "./assets home/FriendWatching.png";
-import "./WelcomeScreen.css";
+import styles from "./WelcomeScreen.module.css";
 
 export default function WelcomeScreen() {
   return (
@@ -16,7 +16,7 @@ export default function WelcomeScreen() {
       >
         <Image src={FriendWatching} fill alt="Friends watching movie" />
       </div>
-      <p className="Title">
+      <p className={styles.Title}>
         Mjesto za sve vaše pogledane serije
         <br /> a i one koje ćete tek pogledati
       </p>
