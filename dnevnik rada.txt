@@ -2,3 +2,7 @@
 Napravio inicijalni dizajn te napravio projekt povezo ga s vercelom i github repositoryiem i sve spremno za programiranje
 Navecer sam dodao navigacijsku traku te napravio fajlove welcomescreen u kojem ce biti slika i kao dobrodoslica na stranicu
 te sam uplodao stranicu ugl sam se bavio frontendom
+4.5.2025
+Imo sam probleme sa vercelom zbog root direktrija koje sam otklonio i napravio CurentlyPopular samo pocetak i tjt
+8.5.2025
+Napravio komponentu Popularshows u nju stavio da generira 5 najpopularniji showowa po imdbu i resizo sam sliku

@@ -10,7 +10,7 @@ export default function WelcomeScreen() {
           position: "relative",
           width: "60%",
           overflow: "hidden",
-          aspectRatio: "3/2",
+          aspectRatio: "4/2",
           margin: "0 auto",
         }}
       >
