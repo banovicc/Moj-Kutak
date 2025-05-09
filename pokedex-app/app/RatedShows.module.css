@@ -27,14 +27,44 @@
 }
 
 .EachShow h2 {
+  max-width: 200px;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
+  text-wrap: wrap;
 }
 
 .ShowsContainer {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+.Button {
+  border: none;
+  background-color: rgb(224, 224, 244);
+  cursor: pointer;
+}
+
+.Button:hover {
+  scale: 1.05;
+}
+
+@media (min-width: 740px) {
+  .ShowsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 868px) {
+  .ShowsContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1124px) {
+  .ShowsContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

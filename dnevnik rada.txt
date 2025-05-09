@@ -7,3 +7,5 @@ Imo sam probleme sa vercelom zbog root direktrija koje sam otklonio i napravio C
 8.5.2025
 Napravio komponentu Popularshows u nju stavio da generira 5 najpopularniji showowa po imdbu i resizo sam sliku
 Popodne sam sve stilove promino u module i dodao strelice te sve lipo centriro
+9.5.2025
+Strelicama sada mozes pregledat dalje filmove
