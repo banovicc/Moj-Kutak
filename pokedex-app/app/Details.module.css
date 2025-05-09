@@ -1,0 +1,16 @@
+.Main {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  justify-content: center;
+}
+
+.FirstHalf {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.Image {
+  margin: auto;
+}
