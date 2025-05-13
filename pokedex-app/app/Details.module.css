@@ -8,9 +8,26 @@
 .FirstHalf {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin-left: 300px;
+  padding-right: 50px;
+  text-align: center;
 }
 
 .Image {
-  margin: auto;
+  margin-right: 300px;
+  padding-left: 50px;
+}
+
+.Genres {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.Genre {
+  margin: 5px;
+  padding: 10px;
+  background-color: #696969;
+  border-radius: 15px;
+  font-size: 15px;
 }

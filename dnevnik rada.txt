@@ -10,3 +10,5 @@ Popodne sam sve stilove promino u module i dodao strelice te sve lipo centriro
 9.5.2025
 Strelicama sada mozes pregledat dalje filmove
 Navecer dodana komponenta details koja ce ispod prikazivat opis serija nije do kraja implementirana
+12.5.2025
+Dodane dodatni detaljni opisi serijama i malo uraden stil
