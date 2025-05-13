@@ -18,8 +18,10 @@ export default function Details({ shows, num }) {
           {show.name}
         </h1>
         <div className={styles.Genres}>
-          {show.genres.map((genre) => (
-            <p className={styles.Genre}>{genre}</p>
+          {show.genres.map((genre, index) => (
+            <p key={index} className={styles.Genre}>
+              {genre}
+            </p>
           ))}
         </div>
         <p>Trajanje {show.runtime} minuta</p>
