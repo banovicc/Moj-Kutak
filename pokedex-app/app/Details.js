@@ -33,7 +33,7 @@ export default function Details({ shows, num }) {
         </p>
         <p style={{ marginBottom: 0, fontWeight: "bold" }}>Opis:</p>
         <p style={{ marginTop: 0 }}>{stripHtmlTags(show.summary)}</p>
-        <Link className={styles.LinkGumb} href={`/shows/${show.name}`}>
+        <Link className={styles.LinkGumb} href={`/shows/${show.id}`}>
           Prikaži detalje
         </Link>
       </div>

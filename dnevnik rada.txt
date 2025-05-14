@@ -14,3 +14,4 @@ Navecer dodana komponenta details koja ce ispod prikazivat opis serija nije do k
 Dodane dodatni detaljni opisi serijama i malo uraden stil
 14.5.2025
 Uredeni dodatno detalj iuzgled poboljsan i dodana stranica za dodatne detalje serija
+Navecer samo postavio da drugu stranicu osnovno
