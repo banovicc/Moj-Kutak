@@ -16,18 +16,40 @@
 .Image {
   margin-right: 300px;
   padding-left: 50px;
+  margin-top: 40px;
 }
 
 .Genres {
   display: flex;
   flex-direction: row;
   margin-top: 10px;
+  justify-content: center;
 }
 
 .Genre {
   margin: 5px;
   padding: 10px;
-  background-color: #696969;
+  background-color: #1d43b5;
+  color: rgb(224, 224, 224);
   border-radius: 15px;
   font-size: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-width: 100px;
+}
+
+.LinkGumb {
+  text-decoration: none;
+  background-color: #353535;
+  margin: auto;
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 40px;
+}
+
+.LinkGumb:hover {
+  background-color: #4d4d4d;
 }

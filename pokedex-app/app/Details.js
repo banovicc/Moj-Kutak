@@ -1,5 +1,6 @@
 import styles from "./Details.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 function stripHtmlTags(str) {
   if (!str) return "";
@@ -24,16 +25,25 @@ export default function Details({ shows, num }) {
             </p>
           ))}
         </div>
-        <p>Trajanje {show.runtime} minuta</p>
-        <p>Opis:</p>
-        <p>{stripHtmlTags(show.summary)}</p>
+        <p style={{ marginTop: 10, marginBottom: 0 }}>
+          Prosječno trajanje epizode:{" "}
+          <span style={{ fontWeight: "bold" }}>
+            {show.averageRuntime} minute{" "}
+          </span>
+        </p>
+        <p style={{ marginBottom: 0, fontWeight: "bold" }}>Opis:</p>
+        <p style={{ marginTop: 0 }}>{stripHtmlTags(show.summary)}</p>
+        <Link className={styles.LinkGumb} href={`/shows/${show.name}`}>
+          Prikaži detalje
+        </Link>
       </div>
       <div className={styles.Image}>
         <Image
           src={show.image.medium}
           alt={show.name}
-          width={320}
-          height={450}
+          width={360}
+          height={490}
+          style={{ borderRadius: "10px" }}
         />
       </div>
     </div>

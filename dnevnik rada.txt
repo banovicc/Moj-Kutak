@@ -12,3 +12,5 @@ Strelicama sada mozes pregledat dalje filmove
 Navecer dodana komponenta details koja ce ispod prikazivat opis serija nije do kraja implementirana
 12.5.2025
 Dodane dodatni detaljni opisi serijama i malo uraden stil
+14.5.2025
+Uredeni dodatno detalj iuzgled poboljsan i dodana stranica za dodatne detalje serija
