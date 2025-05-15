@@ -10,6 +10,9 @@
 .MainContainer {
   display: flex;
   flex-direction: row;
+}
+
+.Main {
   background-color: rgb(224, 224, 224);
   margin: 30px;
   border-radius: 10px;
@@ -25,7 +28,7 @@
   margin: 0;
   margin-right: 10px;
   padding: 10px;
-  background-color: #1d43b5;
+  background-color: #005dc0;
   color: rgb(224, 224, 224);
   border-radius: 15px;
   font-size: 18px;

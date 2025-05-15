@@ -1,0 +1,65 @@
+.Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.SecondButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: rgb(80, 80, 80);
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.Button {
+  text-decoration: none;
+  background-color: rgb(80, 80, 80);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.Button:hover {
+  background-color: #555;
+}
+
+.Button:active {
+  transform: scale(0.95);
+}
+
+.Button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.episodeRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.episodeRow:hover {
+  scale: 1.02;
+}
+
+.dataBox {
+  flex: 1;
+  background-color: #a9a9a9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+  font-size: 17px;
+  color: black;
+}
