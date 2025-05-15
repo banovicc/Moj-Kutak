@@ -1,0 +1,54 @@
+.FirstHalf {
+  padding: 30px;
+}
+
+.SecondHalf {
+  color: black;
+  padding: 30px;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(224, 224, 224);
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.Genres {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.Genre {
+  margin: 0;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #1d43b5;
+  color: rgb(224, 224, 224);
+  border-radius: 15px;
+  font-size: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-width: 100px;
+  text-align: center;
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+.H3 {
+  background-color: #a9a9a9;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 12px;
+  font-size: 20px;
+}

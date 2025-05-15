@@ -15,3 +15,5 @@ Dodane dodatni detaljni opisi serijama i malo uraden stil
 14.5.2025
 Uredeni dodatno detalj iuzgled poboljsan i dodana stranica za dodatne detalje serija
 Navecer samo postavio da drugu stranicu osnovno
+15.5.2025
+Napravljena komponenta ShowDeatils koja ce sadrzavati detaljne podatke o seriji kao i glumice i epizode
