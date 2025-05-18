@@ -18,3 +18,5 @@ Navecer samo postavio da drugu stranicu osnovno
 15.5.2025
 Napravljena komponenta ShowDeatils koja ce sadrzavati detaljne podatke o seriji kao i glumice i epizode
 Navecer dodao popis serija i glumaca
+18.5.2025
+Napravljen selector i detalji pojedine epizode

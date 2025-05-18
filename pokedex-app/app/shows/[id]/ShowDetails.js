@@ -51,7 +51,7 @@ export default async function Page({ show }) {
           <p>{stripHtmlTags(show.summary)}</p>
         </div>
       </div>
-      <EpisodesandActors episodes={episodes} actors={actors} />
+      <EpisodesandActors episodes={episodes} actors={actors} id={show.id} />
     </div>
   );
 }

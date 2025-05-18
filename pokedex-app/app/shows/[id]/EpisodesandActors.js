@@ -4,7 +4,7 @@ import { useState } from "react";
 import styles from "./EpisodesandActors.module.css";
 import Link from "next/link";
 
-export default function EpisodesandActors({ episodes, actors }) {
+export default function EpisodesandActors({ episodes, actors, id }) {
   const [showEpisodes, setShowEpisodes] = useState(true);
 
   return (
@@ -29,7 +29,10 @@ export default function EpisodesandActors({ episodes, actors }) {
         <div>
           {episodes.map((episode, index) => (
             <div key={index}>
-              <Link href={`/`} style={{ textDecoration: "none" }}>
+              <Link
+                href={`/shows/${id}/episode/${episode.id}`}
+                style={{ textDecoration: "none" }}
+              >
                 <div className={styles.episodeRow}>
                   <div className={styles.dataBox}>
                     <span className={{ fontWeight: "bold" }}>
@@ -47,8 +50,15 @@ export default function EpisodesandActors({ episodes, actors }) {
         <div className={styles.list}>
           {actors.map((actor, index) => (
             <div key={index}>
-              <span style={{ fontWeight: "bold" }}>{actor.person.name}</span>{" "}
-              {actor.character.name}
+              <Link
+                href={`/shows/${id}/episode/${actor.id}`}
+                style={{ textDecoration: "none" }}
+              >
+                <div className={styles.episodeRow}>
+                  <div className={styles.dataBox}>{actor.person.name}</div>
+                  <div className={styles.dataBox}>{actor.character.name}</div>
+                </div>
+              </Link>
             </div>
           ))}
         </div>
