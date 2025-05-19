@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import styles from "./Selector.module.css";
 
 async function CheckNext(id, CurrentEpisode, router) {
   const res = await fetch(`https://api.tvmaze.com/episodes/${id}`);
@@ -20,11 +21,17 @@ async function CheckNext(id, CurrentEpisode, router) {
 export default function Selector({ episode }) {
   const router = useRouter();
   return (
-    <div>
-      <button onClick={() => CheckNext(episode.id - 1, episode, router)}>
+    <div className={styles.Main}>
+      <button
+        onClick={() => CheckNext(episode.id - 1, episode, router)}
+        className={styles.Button}
+      >
         Prethodna
       </button>
-      <button onClick={() => CheckNext(episode.id + 1, episode, router)}>
+      <button
+        onClick={() => CheckNext(episode.id + 1, episode, router)}
+        className={styles.Button}
+      >
         Sljedeća
       </button>
     </div>

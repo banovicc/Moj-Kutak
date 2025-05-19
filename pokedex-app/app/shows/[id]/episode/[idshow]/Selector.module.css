@@ -1,0 +1,19 @@
+.Main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Button {
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #007bff;
+}

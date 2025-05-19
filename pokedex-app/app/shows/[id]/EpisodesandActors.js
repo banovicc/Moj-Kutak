@@ -51,7 +51,7 @@ export default function EpisodesandActors({ episodes, actors, id }) {
           {actors.map((actor, index) => (
             <div key={index}>
               <Link
-                href={`/shows/${id}/episode/${actor.id}`}
+                href={`/actors/${actor.person.id}`}
                 style={{ textDecoration: "none" }}
               >
                 <div className={styles.episodeRow}>
