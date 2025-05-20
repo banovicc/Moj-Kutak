@@ -5,12 +5,8 @@ export default async function Page({ params }) {
   const { id } = await params;
   const idd = parseInt(id);
 
-  const res = await fetch("https://api.tvmaze.com/shows");
-  let data = await res.json();
-
-  data = data.filter((show) => show.id === idd);
-
-  const show = data[0];
+  const res = await fetch(`https://api.tvmaze.com/shows/${idd}`);
+  let show = await res.json();
 
   return (
     <div>

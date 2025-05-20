@@ -15,12 +15,35 @@
 }
 
 .Show {
-  margin: 0;
+  margin: 3px;
+  padding: 10px;
+  background-color: #a4a4a4;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+}
+
+.Show:hover {
+  background-color: #8c8c8c;
+}
+
+.Show:active {
+  scale: 1.05;
 }
 
 .SecondHalf {
-  display: flex;
-  flex-direction: column;
   gap: 1rem;
-  margin: 30px;
+  margin: auto;
+}
+
+.H3 {
+  margin: 0;
+  padding: 0;
+}
+
+.ShowContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
 }

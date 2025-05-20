@@ -4,6 +4,7 @@
   justify-content: center;
   max-width: 300px;
   margin: 20px auto;
+  margin-bottom: 0px;
 }
 
 .SecondButtons {
@@ -62,4 +63,26 @@
   max-width: 300px;
   font-size: 17px;
   color: black;
+}
+
+.TitleRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  justify-content: center;
+}
+
+.ColumnTitle {
+  flex: 1;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
 }

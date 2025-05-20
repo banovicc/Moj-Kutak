@@ -22,3 +22,5 @@ Navecer dodao popis serija i glumaca
 Napravljen selector i detalji pojedine epizode
 19.5.2025
 Zapoceto sa glumcima
+20.5.2025
+Rijesen bag da se nisu mogle sve serije ucitat
