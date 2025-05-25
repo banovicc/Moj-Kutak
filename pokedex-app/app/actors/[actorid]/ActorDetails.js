@@ -1,3 +1,5 @@
+// Ovo je komponenta za prikaz detalja o glumcu
+
 import styles from "./ActorDetails.module.css";
 import Image from "next/image";
 import Link from "next/link";

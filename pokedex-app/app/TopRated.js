@@ -1,3 +1,5 @@
+// Ova komponenta je glavna za popularne serije
+
 import styles from "./TopRated.module.css";
 import PopularShows from "./RatedShows";
 

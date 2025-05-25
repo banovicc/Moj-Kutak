@@ -1,3 +1,5 @@
+//Komonenta koja sluzi za prikaz detalja o epizodi serije
+
 import styles from "./EpisodeDetails.module.css";
 import Image from "next/image";
 

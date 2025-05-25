@@ -1,3 +1,5 @@
+// Glavna kompoenenta za prikaz shows
+
 import ShowDetails from "./ShowDetails";
 import NavigationBar from "../../Navigationbar";
 

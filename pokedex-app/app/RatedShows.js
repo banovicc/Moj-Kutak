@@ -1,3 +1,5 @@
+// Ova komponenta prikazuje serije koje su popularne
+
 "use client";
 import styles from "./RatedShows.module.css";
 import Image from "next/image";

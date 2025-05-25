@@ -1,0 +1,19 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(224, 224, 224);
+  margin: 30px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.Card {
+  width: 60%;
+  margin: 5px auto;
+  background-color: rgb(164, 164, 164);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+}

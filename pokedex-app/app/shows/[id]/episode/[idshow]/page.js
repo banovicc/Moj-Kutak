@@ -1,3 +1,5 @@
+// Glavna komonenta za prikaz epizode
+
 import EpisodeDetails from "./EpisodeDetails";
 import NavigationBar from "../../../../Navigationbar";
 import Selector from "./Selector";

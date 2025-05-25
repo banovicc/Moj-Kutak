@@ -1,3 +1,5 @@
+// Glavna komonenta za prikaz actora
+
 import NavigationBar from "../../Navigationbar";
 import ActorDetails from "./ActorDetails";
 

@@ -1,3 +1,5 @@
+// Ova komponenta prikazuje detalje svake serije
+
 import styles from "./Details.module.css";
 import Image from "next/image";
 import Link from "next/link";

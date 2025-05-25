@@ -1,3 +1,5 @@
+// Pocetna stranica aplikacije
+
 import WelcomeScreen from "./WelcomeScreen";
 import TopRated from "./TopRated";
 import NavigationBar from "./Navigationbar";

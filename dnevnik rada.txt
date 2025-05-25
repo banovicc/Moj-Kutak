@@ -24,3 +24,5 @@ Napravljen selector i detalji pojedine epizode
 Zapoceto sa glumcima
 20.5.2025
 Rijesen bag da se nisu mogle sve serije ucitat
+25.5.2025
+Rijeseni favoriti i komentirana svaka komponeneta

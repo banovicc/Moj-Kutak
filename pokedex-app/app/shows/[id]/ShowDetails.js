@@ -1,6 +1,9 @@
+//Prikazuje ddetalje svake serije
+
 import styles from "./ShowDetails.module.css";
 import Image from "next/image";
 import EpisodesandActors from "./EpisodesandActors";
+import FavoriteButton from "./FavoriteButton";
 
 function stripHtmlTags(str) {
   if (!str) return "";
@@ -27,7 +30,10 @@ export default async function Page({ show }) {
           />
         </div>
         <div className={styles.SecondHalf}>
-          <h1>{show.name}</h1>
+          <div className={styles.TitleButton}>
+            <h1>{show.name}</h1>
+            <FavoriteButton id={show.id} />
+          </div>
           <div className={styles.Genres}>
             {show.genres.map((genre, index) => (
               <h2 className={styles.Genre} key={index}>

@@ -1,3 +1,5 @@
+//gumb koji sluzi za prebacivanje na sljedecu epizodu
+
 "use client";
 
 import { useRouter } from "next/navigation";

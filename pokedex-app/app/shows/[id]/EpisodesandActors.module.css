@@ -86,3 +86,22 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.ButtonFavorite {
+  background-color: #727271;
+  color: black;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 40px;
+}
+
+.ButtonFavorite:hover {
+  background-color: #5b5b5a;
+}
+
+.ButtonFavorite:active {
+  transform: scale(0.95);
+}

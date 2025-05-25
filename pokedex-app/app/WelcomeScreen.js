@@ -1,3 +1,5 @@
+// Ova komonenta prikacuje sliku dobrodoslice i tekst
+
 import Image from "next/image";
 import FriendWatching from "./assets home/FriendWatching.png";
 import styles from "./WelcomeScreen.module.css";

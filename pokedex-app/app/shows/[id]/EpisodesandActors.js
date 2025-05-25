@@ -1,3 +1,5 @@
+// Izlistava detalje epizoda i glumaca serije
+
 "use client";
 
 import { useState } from "react";
