@@ -1,7 +1,9 @@
+// GUmb za brisanje favorita
+
 "use client";
 
-import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function RemoveButton({ id }) {
   const router = useRouter();
@@ -14,12 +16,18 @@ export default function RemoveButton({ id }) {
     try {
       const res = await fetch(`/api/favorites?id=${id}`, {
         method: "DELETE",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+        },
       });
 
       if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        throw new Error(data.error || "Neuspešno brisanje");
+        let errorMessage = "Neuspešno brisanje";
+        try {
+          const data = await res.json();
+          if (data?.error) errorMessage = data.error;
+        } catch {}
+        throw new Error(errorMessage);
       }
 
       router.refresh();
