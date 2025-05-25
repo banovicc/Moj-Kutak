@@ -21,10 +21,16 @@ export async function DELETE(request) {
 
   const numericId = parseInt(id, 10);
   if (isNaN(numericId)) {
-    return Response.json({ error: "invalid id" }, { status: 400 });
+    return new Response(JSON.stringify({ error: "invalid id" }), {
+      status: 400,
+      headers: { "Content-Type": "application/json" },
+    });
   }
 
   favorites = favorites.filter((favId) => favId !== numericId);
 
-  return Response.json({ ok: true, favorites });
+  return new Response(JSON.stringify({ ok: true, favorites }), {
+    status: 200,
+    headers: { "Content-Type": "application/json" },
+  });
 }
