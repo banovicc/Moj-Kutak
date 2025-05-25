@@ -4,7 +4,7 @@ import Favorites from "./Favorites";
 import NavigationBar from "../Navigationbar";
 
 export default async function FavoritesPage() {
-  const res = await fetch("http://localhost:3000/api/favorites");
+  const res = await fetch("/api/favorites");
   const data = await res.json();
 
   const favorites = await Promise.all(
